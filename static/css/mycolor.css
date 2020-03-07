@@ -1,0 +1,31 @@
+.cyan1 {
+    background: #011f17;
+}
+
+.cyan2 {
+    background: #01362b;
+}
+
+.cyan3 {
+    background: #015b4f;
+}
+
+.cyan4 {
+    background: #018579;
+}
+
+.cyan5 {
+    background: #01a99d;
+}
+
+.cyan6 {
+    background: #01d7cb;
+}
+
+.cyan7 {
+    background: #01fff3;
+}
+
+.cyan4, .cyan5, .cyan6, .cyan7 {
+    color: black;
+}
