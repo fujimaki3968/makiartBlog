@@ -37,3 +37,11 @@
 .black2 {
     background: #414141;
 }
+
+.black1, .black2 {
+    color: azure;
+}
+
+.link_hover a:hover {
+    color: #01d7cb;
+}

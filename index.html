@@ -18,10 +18,10 @@
         <nav class="uk-navbar">
             <div class="uk-navbar-center">
                 <ul class="uk-navbar-nav">
-                    <li class="uk-active"><a href="#">home</a></li>
-                    <li><a href="#">about</a></li>
-                    <li><a href="#">blog</a></li>
-                    <li><a href="#">product</a></li>
+                    <li class="uk-active uk-button-text"><a href="#">home</a></li>
+                    <li><a class="uk-button-text" href="#">about</a></li>
+                    <li><a class="uk-button-text" href="#">blog</a></li>
+                    <li><a class="uk-button-text" href="#">product</a></li>
                 </ul>
             </div>
         </nav>
@@ -36,11 +36,10 @@
             </div>
             <div>
                 <div class="uk-card-body">
-                    <a class="uk-link-toggle">
-                        <h3 class="uk-card-title uk-link-heading uk-animation-shake">About me</h3>
-                    </a>
-
-                    <hr class="uk-hr">
+                    <div class="uk-position-relative">
+                        <h3 class="uk-heading-bullet">About me</h3>
+                        <a class="uk-button uk-button-text uk-button-small uk-position-center-right">more</a>
+                    </div>
                     <div class="uk-child-width-1-2 uk-grid uk-grid-collapse uk-text-center" uk-height-match>
                         <div class="cyan7">
                             <div class="uk-tile">
@@ -72,14 +71,14 @@
     <div class="uk-container">
         <div class="uk-child-width-1-2@m" uk-grid>
             <div>
-                <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="ratio: 10:18; animation: fade; autoplay: true; autoplay-interval: 3000">
+                <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="ratio: 10:13; animation: fade; autoplay: true; autoplay-interval: 3000">
 
                     <ul class="uk-slideshow-items">
                         <li>
                             <img src="static/img/record/cycling1.jpg" alt="" uk-cover>
-                            <div class="uk-overlay uk-position-top-right">江ノ島</div><div class="uk-hidden-hover uk-overlay uk-position-bottom black2">
+                            <div class="uk-overlay uk-position-top-right">江ノ島</div>
+                            <div class="uk-hidden-hover uk-overlay uk-position-bottom">
                                 <div class="">
-                                    <h3 class="uk-card-title">Blogtitle</h3>
                                     <div class="uk-position-small uk-position-bottom-right">
                                         <a class="uk-button cyan4">一覧</a>
                                         <a class="uk-button cyan5">詳しく見る</a>
@@ -90,9 +89,8 @@
                         <li>
                             <img src="static/img/record/cycling2.jpg" alt="" uk-cover>
                             <div class="uk-overlay uk-position-top-right">相模湖</div>
-                            <div class="uk-hidden-hover uk-overlay uk-position-bottom black2">
+                            <div class="uk-hidden-hover uk-overlay uk-position-bottom">
                                 <div class="">
-                                    <h3 class="uk-card-title">Blog</h3>
                                     <div class="uk-position-small uk-position-bottom-right">
                                         <a class="uk-button cyan4">一覧</a>
                                         <a class="uk-button cyan5">詳しく見る</a>
@@ -103,9 +101,8 @@
                         <li>
                             <img src="static/img/record/hokkaido1.jpg" alt="" uk-cover>
                             <div class="uk-overlay uk-position-top-right">北海道</div>
-                            <div class="uk-hidden-hover uk-overlay uk-position-bottom black2">
+                            <div class="uk-hidden-hover uk-overlay uk-position-bottom">
                                 <div class="">
-                                    <h3 class="uk-card-title">Blog</h3>
                                     <div class="uk-position-small uk-position-bottom-right">
                                         <a class="uk-button cyan4">一覧</a>
                                         <a class="uk-button cyan5">詳しく見る</a>
@@ -116,9 +113,8 @@
                         <li>
                             <img src="static/img/record/tokushima1.jpg" alt="" uk-cover>
                             <div class="uk-overlay uk-position-top-right">徳島県</div>
-                            <div class="uk-hidden-hover uk-overlay uk-position-bottom black2">
+                            <div class="uk-hidden-hover uk-overlay uk-position-bottom">
                                 <div class="">
-                                    <h3 class="uk-card-title">Blog</h3>
                                     <div class="uk-position-small uk-position-bottom-right">
                                         <a class="uk-button cyan4">一覧</a>
                                         <a class="uk-button cyan5">詳しく見る</a>
