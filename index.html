@@ -71,7 +71,7 @@
     <div class="uk-container">
         <div class="uk-child-width-1-2@m" uk-grid>
             <div>
-                <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="ratio: 10:13; animation: fade; autoplay: true; autoplay-interval: 3000">
+                <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="ratio: 10:13; animation: fade; autoplay: true; autoplay-interval: 3500">
 
                     <ul class="uk-slideshow-items">
                         <li>
@@ -149,36 +149,43 @@
                         <h3 class="uk-card-title uk-heading-bullet">Products</h3>
                     </div>
                     <div class="uk-card-body">
-                        <div uk-slider="center: true">
+                        <div uk-slider="center: true; autoplay: true; autoplay-interval: 2000">
 
                             <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
 
                                 <ul class="uk-slider-items uk-grid">
                                     <li class="uk-width-2-3@s">
-                                        <div class="uk-card uk-card-default">
+                                        <div class="uk-card">
                                             <div class="uk-card-media-top">
-                                                <img src="static/img/icon.jpg" alt="">
+                                                <img src="static/img/product/timeshape.png" alt="">
                                             </div>
                                         </div>
                                     </li>
                                     <li class="uk-width-2-3@s">
-                                        <div class="uk-card uk-card-default">
+                                        <div class="uk-card">
                                             <div class="uk-card-media-top">
-                                                <img src="static/img/background.jpg" alt="">
+                                                <img src="static/img/product/kura_menu_suggest.png" alt="">
                                             </div>
                                         </div>
                                     </li>
                                     <li class="uk-width-2-3@s">
-                                        <div class="uk-card uk-card-default">
+                                        <div class="uk-card">
                                             <div class="uk-card-media-top">
-                                                <img src="static/img/icon.jpg" alt="">
+                                                <img src="static/img/product/lost.jpg" alt="">
                                             </div>
                                         </div>
                                     </li>
                                     <li class="uk-width-2-3@s">
-                                        <div class="uk-card uk-card-default">
+                                        <div class="uk-card">
                                             <div class="uk-card-media-top">
-                                                <img src="static/img/icon.jpg" alt="">
+                                                <img src="static/img/product/parse_document.png" alt="">
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="uk-width-2-3@s">
+                                        <div class="uk-card">
+                                            <div class="uk-card-media-top">
+                                                <img src="static/img/product/dokodemo_door.png" alt="">
                                             </div>
                                         </div>
                                     </li>
@@ -191,10 +198,11 @@
 
                             <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
                             <ul class="uk-switcher">
-                                <li uk-slider-item="0">aiueo</li>
-                                <li uk-slider-item="1">fffiueo</li>
-                                <li uk-slider-item="2">aiudddeo</li>
-                                <li uk-slider-item="3">aiueddsfao</li>
+                                <li uk-slider-item="0">TimeShape-今までになかった高機能カレンダー</li>
+                                <li uk-slider-item="1">くら寿司メニューガチャ</li>
+                                <li uk-slider-item="2">LOST駅案内システム-画像による位置情報特定</li>
+                                <li uk-slider-item="3">書類解析-表の認識、CloudVisionを利用したOCR&タイトル判別等</li>
+                                <li uk-slider-item="4">360度映像でどこでもドアを再現</li>
                             </ul>
 
                         </div>
