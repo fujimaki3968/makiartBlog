@@ -1,0 +1,15 @@
+@media (max-width: 48em) {
+
+    .float {
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+        background: rgba(1,169,157,0.67);
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        line-height: 38px;
+        text-align: center;
+    }
+
+}
