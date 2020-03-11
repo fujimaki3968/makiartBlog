@@ -2,15 +2,15 @@
 <html lang="en">
 <head>
     <title>makiart blog - about</title>
-    <meta name="description" content="とある高専生のブログ　プログラミング、旅、ガジェット..." />
+    <meta name="description" content="とある高専生のブログ　プログラミング、旅、ガジェット..."/>
     <meta property="og:title" content="マキアートのブログ">
     <meta property="og:description" content="とある高専生のブログ　プログラミング、旅、ガジェット...">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://blog.makiart.dev/">
-    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:card" content="summary"/>
     <meta name="og:image" content="https://blog.makiart.dev/static/img/blogicon.png">
-    <meta name="twitter:site" content="@maki_maki_art" />
-    <meta name="twitter:player" content="@maki_maki_art" />
+    <meta name="twitter:site" content="@maki_maki_art"/>
+    <meta name="twitter:player" content="@maki_maki_art"/>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="static/css/uikit.min.css"/>
@@ -21,18 +21,30 @@
     <script src="static/js/uikit-icons.min.js"></script>
 </head>
 <body>
-<div class="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" data-src="static/img/background.jpg" height="300px" uk-img>
+<div class="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light"
+     data-src="static/img/background.jpg" height="300px" uk-img>
     <h1>makiartBlog</h1>
 </div>
 <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
     <div class="uk-navbar-container">
         <div class="uk-container">
-            <nav class="uk-navbar">
+            <nav class="uk-navbar" uk-navbar>
                 <div class="uk-navbar-center">
                     <ul class="uk-navbar-nav">
                         <li class="uk-button-text"><a href="index.html">home</a></li>
                         <li class="uk-active"><a class="uk-button-text" href="about.html">about</a></li>
-                        <li><a class="uk-button-text" href="#">blog</a></li>
+                        <li>
+                            <a class="uk-button-text" href="#">blog</a>
+                            <div class="uk-navbar-dropdown">
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li class="uk-active"><a href="blog/blog_index.html">カテゴリー</a></li>
+                                    <li class=""><a href="blog/programing/programing_index.html">プログラミング</a></li>
+                                    <li class=""><a href="blog/trip/trip_index.html">サイクリング・旅行</a></li>
+                                    <li class=""><a href="blog/gadget/gadget_index.html">ガジェット</a></li>
+                                    <li class=""><a href="blog/daiary/daiary_index.html">ダイアリー</a></li>
+                                </ul>
+                            </div>
+                        </li>
                         <li><a class="uk-button-text" href="#">product</a></li>
                     </ul>
                 </div>
@@ -51,16 +63,17 @@
                                 <h3 class="uk-heading-bullet">About me</h3>
                             </div>
                             <div class="uk-panel">
-                                <img class="uk-align-center uk-align-left@s" width="500px" height="500px" src="static/img/icon.jpg" alt="" uk-img>
+                                <img class="uk-align-center uk-align-left@s" width="500px" height="500px"
+                                     src="static/img/icon.jpg" alt="" uk-img>
                                 <article class="uk-article">
 
                                     <h1 class="uk-article-title">マキアート</h1>
 
                                     <p class="uk-text-bold">サイクリングが好きで、３ヶ月に一回ぐらいの頻度で遠くまでサイクリングしてます。<br>
-                                                            自分が心がけていることは、自分がしたいことをするのと、怠惰な生活を送らないようにしています。
-                                                            つまり、できるだけ有意義に過ごすということです。<br>
-                                                            バイトを週２０時間程度しつつ、プロコンゼミというプログラミングの大会に出場する部活に参加しています。
-                                                            </p>
+                                        自分が心がけていることは、自分がしたいことをするのと、怠惰な生活を送らないようにしています。
+                                        つまり、できるだけ有意義に過ごすということです。<br>
+                                        バイトを週２０時間程度しつつ、プロコンゼミというプログラミングの大会に出場する部活に参加しています。
+                                    </p>
                                     <a class="uk-button uk-button-text" type="button" uk-toggle="target: #toggle">もっと自語りを見たい</a>
                                     <p id="toggle" aria-hidden="true" hidden>
                                         小さい頃は工作が大好きで、そんなこともあってか高専を知ったときこの学校は自分がしたいことを学べると思い当時並の学力しか無かったのですが、
@@ -100,7 +113,8 @@
                                 </div>
                                 <div>
                                     <div class="uk-card uk-card-default uk-card-body uk-text-center">
-                                        <p class="">meister2019　リーダー&TA<br>紙媒体カレンダーを画像だけでデジタルに変換、デジタルデータをペンプロッターを用いて出力する相互変換システム開発</p>
+                                        <p class="">meister2019　リーダー&TA<br>紙媒体カレンダーを画像だけでデジタルに変換、デジタルデータをペンプロッターを用いて出力する相互変換システム開発
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -119,7 +133,8 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <ul class="level-filter uk-child-width-1-6@s uk-child-width-1-2 uk-grid-small uk-grid-match" uk-grid>
+                                <ul class="level-filter uk-child-width-1-6@s uk-child-width-1-2 uk-grid-small uk-grid-match"
+                                    uk-grid>
                                     <li class="lev6">
                                         <div class="uk-card cyan6 uk-card-body uk-text-center">
                                             <p class="uk-text-bold">Python</p>
