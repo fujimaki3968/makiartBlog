@@ -1,7 +1,12 @@
+.float {
+    opacity: 0;
+}
+
 @media (max-width: 48em) {
 
     .float {
         position: fixed;
+        opacity: 1;
         right: 20px;
         bottom: 20px;
         background: rgba(1,169,157,0.67);
@@ -10,6 +15,7 @@
         border-radius: 50%;
         line-height: 38px;
         text-align: center;
+        z-index: 1000;
     }
 
 }
